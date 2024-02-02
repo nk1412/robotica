@@ -4539,6 +4539,13 @@ fieldset:disabled .btn {
     color: #fff
 }
 
+@media (max-width: 991.98px) {
+    .navbar-brand {
+        font-size: 14px;
+        width: 150px;
+    }
+}
+
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255, 255, 255, .55)
 }
