@@ -82,3 +82,15 @@ function hideEvents() {
     events.style.display = "none"
     scrollToEvents()
 }
+
+
+function hideWorkshop() {
+    // Get the target element by its ID
+    var workshop = document.getElementById('Workshop');
+    var events = document.getElementById("Events")
+
+    // Scroll to the target element
+    workshop.style.display = "none"
+    events.style.display = "block"
+    scrollToEvents()
+}
