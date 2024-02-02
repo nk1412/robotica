@@ -63,10 +63,22 @@
 
 })(jQuery);
 
+
 function scrollToEvents() {
     // Get the target element by its ID
     var eventsSection = document.getElementById('events');
 
     // Scroll to the target element
     eventsSection.scrollIntoView({ behavior: 'smooth' });
+}
+
+function hideEvents() {
+    // Get the target element by its ID
+    var workshop = document.getElementById('Workshop');
+    var events = document.getElementById("Events")
+
+    // Scroll to the target element
+    workshop.style.display = "block"
+    events.style.display = "none"
+    scrollToEvents()
 }
