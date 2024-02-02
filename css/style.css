@@ -839,7 +839,7 @@ h6,
     margin-bottom: 0;
 }
 
-.single-schedule-area .btn.confer-btn {
+.single-schedule-area .btn.confer-btn .btn.confer-btn-new {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 16%;
     flex: 0 0 16%;
@@ -850,7 +850,7 @@ h6,
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .single-schedule-area .btn.confer-btn {
+    .single-schedule-area .btn.confer-btn .btn.confer-btn-new {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 30%;
         flex: 0 0 30%;
@@ -860,7 +860,7 @@ h6,
 }
 
 @media only screen and (max-width: 767px) {
-    .single-schedule-area .btn.confer-btn {
+    .single-schedule-area .btn.confer-btn .btn.confer-btn-new {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
@@ -907,6 +907,7 @@ h6,
     line-height: 46px;
     font-size: 14px;
     font-weight: 500;
+    width: 200px;
     border: none;
     display: inline-block;
     padding: 0 25px;
@@ -944,7 +945,7 @@ h6,
 .confer-btn:focus,
 .confer-btn:hover {
     font-weight: 500;
-    background-color: #ffffff;
+    background-color: #b7cff2;
     color: #111343 !important;
     -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
     box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
@@ -958,6 +959,67 @@ h6,
 
 .confer-btn:focus::before,
 .confer-btn:hover::before {
+    left: 110%;
+}
+
+.confer-btn-new {
+    position: relative;
+    z-index: 1;
+    height: 46px;
+    line-height: 46px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    display: inline-block;
+    padding: 0 25px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #1b1818;
+    border-radius: 23px;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+    overflow: hidden;
+}
+
+.confer-btn-new i {
+    margin-left: 5px;
+}
+
+.confer-btn-new::before {
+    -webkit-transition-duration: 800ms;
+    -o-transition-duration: 800ms;
+    transition-duration: 800ms;
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    top: -10%;
+    left: -10%;
+    content: "";
+    background: #df42b1;
+    background-image: -webkit-linear-gradient(120deg, #f1f1f3 0%, #fdfdfd 100%);
+    background-image: -ms-linear-gradient(120deg, #fbfbfb 0%, #fdfefe 100%);
+    z-index: -2;
+}
+
+.confer-btn-new:focus,
+.confer-btn-new:hover {
+    font-weight: 500;
+    background-color: var(--secondary);
+    color: #111343 !important;
+    -webkit-box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+    box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+}
+
+.confer-btn-new:focus i,
+.confer-btn-new:hover i {
+    -webkit-animation: buttonIcon 1s ease-in infinite;
+    animation: buttonIcon 1s ease-in infinite;
+}
+
+.confer-btn-new:focus::before,
+.confer-btn-new:hover::before {
     left: 110%;
 }
 
