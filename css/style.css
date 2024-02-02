@@ -714,8 +714,8 @@ h6,
 }
 
 .single-schedule-area .single-schedule-tumb-info .single-schedule-tumb {
-    height: 90px;
-    width: 90px;
+    height: 100px;
+    width: 100px;
 }
 
 .single-schedule-area .single-schedule-tumb-info .single-schedule-tumb img {
@@ -746,6 +746,44 @@ h6,
 @media only screen and (max-width: 767px) {
     .single-schedule-area .single-schedule-tumb-info .single-schedule-info h6 {
         font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single-schedule-area .confer-btn-new {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single-schedule-area .confer-btn {
+        width: 160px;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    .mx-auto .confer-btn-new {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .mx-auto .confer-btn-new {
+        width: 130px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .single-schedule-area .confer-btn {
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .imageM {
+        height: fit-content;
     }
 }
 
@@ -804,6 +842,11 @@ h6,
         width: 100%;
         padding: 0 0 30px 0;
     }
+}
+
+.imageM {
+    height: fit-content;
+    max-width: 100%;
 }
 
 .single-schedule-area .schedule-time-place p {
@@ -920,6 +963,7 @@ h6,
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
     overflow: hidden;
+    margin-top: 10px;
 }
 
 .confer-btn i {
@@ -966,6 +1010,9 @@ h6,
     position: relative;
     z-index: 1;
     height: 46px;
+    width: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
     line-height: 46px;
     font-size: 18px;
     font-weight: 700;
