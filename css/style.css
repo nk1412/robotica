@@ -749,6 +749,13 @@ h6,
     }
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single-schedule-area .confer-btn-new {
+        height: 200px;
+        width: 200px;
+    }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .single-schedule-area .confer-btn {
         width: 160px;
@@ -835,11 +842,6 @@ h6,
         width: 100%;
         padding: 0 0 30px 0;
     }
-}
-
-.imageM {
-    height: 70%;
-    max-width: 100%;
 }
 
 .single-schedule-area .schedule-time-place p {
