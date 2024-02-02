@@ -64,9 +64,9 @@
 })(jQuery);
 
 
-function scrollToEvents() {
+function scrollToEvents(cmd) {
     // Get the target element by its ID
-    var eventsSection = document.getElementById('events');
+    var eventsSection = document.getElementById(cmd);
 
     // Scroll to the target element
     eventsSection.scrollIntoView({ behavior: 'smooth' });
@@ -80,7 +80,8 @@ function hideEvents() {
     // Scroll to the target element
     workshop.style.display = "block"
     events.style.display = "none"
-    scrollToEvents()
+    scrollToEvents('poster')
+    scrollToEvents('events')
 }
 
 
@@ -92,5 +93,5 @@ function hideWorkshop() {
     // Scroll to the target element
     workshop.style.display = "none"
     events.style.display = "block"
-    scrollToEvents()
+    scrollToEvents('events')
 }
