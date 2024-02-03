@@ -1,0 +1,42 @@
+.mainContent {
+    padding: 2% 0 2% 0;
+}
+
+#GoalRushHeading {
+    font-size: 300%;
+    font-weight: bold;
+    color: black;
+    padding-left: 2%;
+}
+
+.GoalRush {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+}
+
+.GoalRushImage {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.EventInfo {
+    color: black;
+    padding: 3% 3% 3% 3%;
+    margin: 2% 0 2% 0;
+}
+
+.aboutEvent {
+    padding: 2% 2% 2% 2%;
+}
+
+#underline {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: 1s;
+}
+
+#underline:hover{
+    text-decoration-color: white;
+}
