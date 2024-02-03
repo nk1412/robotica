@@ -80,8 +80,7 @@ function hideEvents() {
     // Scroll to the target element
     workshop.style.display = "block"
     events.style.display = "none"
-    scrollToEvents('poster')
-    scrollToEvents('events')
+    scrollToEvents('eventsx')
 }
 
 
