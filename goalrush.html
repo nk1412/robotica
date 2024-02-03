@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <title>ROBOTICA</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
@@ -13,20 +14,11 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap" rel="stylesheet" />
 
     <!-- Icon Font Stylesheet -->
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet" />
@@ -40,246 +32,169 @@
 
     <!-- My style sheet -->
     <link href="myStyles.css" rel="stylesheet" />
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- Navbar Start -->
     <div class="container-fluid sticky-top">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark p-0">
-          <a href="index.html" class="navbar-brand">
-            <div style="display: flex">
-              <img class="rounded-image" src="img/RClogo1.jpg" alt="" />
-              <h1
-                class="text-white"
-                style="margin-top: 20px; padding-left: 20px"
-              >
-                ROBOTICA
-              </h1>
-            </div>
-          </a>
-          <button
-            type="button"
-            class="navbar-toggler ms-auto me-0"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarCollapse"
-            style="margin-bottom: 45px"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto">
-              <a href="index.html" class="nav-item nav-link active">Home</a>
-              <a href="about.html" class="nav-item nav-link">About</a>
-              <a href="events.html" class="nav-item nav-link">Events</a>
-              <a href="#ContactUs" class="nav-item nav-link">Contact</a>
-            </div>
-          </div>
-        </nav>
-      </div>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="index.html" class="navbar-brand">
+                    <div style="display: flex;">
+                        <img class="rounded-image" src="img/RClogo1.jpg" alt="">
+                        <h1 class="text-white" style=" margin-top: 20px;padding-left: 20px;">ROBOTICA</h1>
+                    </div>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" style="margin-bottom: 45px;">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="events.html" class="nav-item nav-link">Events</a>
+                        <a href="team.html" class="nav-item nav-link">Our Team</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                </div>
+            </nav>
+        </div>
     </div>
     <!-- Navbar End -->
 
+
     <!-- Hero Start -->
     <div class="container-fluid pt-5 bg-primary hero-header">
-      <div class="container pt-5">
-        <div class="row g-5 pt-5">
-          <div
-            class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5"
-          >
-            <h1 class="display-4 text-white mb-4 animated slideInRight">
-              Full Throttle
-            </h1>
-            <nav aria-label="breadcrumb">
-              <ol
-                class="breadcrumb justify-content-center justify-content-lg-start mb-0"
-              >
-                <li class="breadcrumb-item">
-                  <a class="text-white" href="#">Home</a>
-                </li>
-                <li
-                  class="breadcrumb-item text-white active"
-                  aria-current="page"
-                >
-                  Full Throttle
-                </li>
-              </ol>
-            </nav>
-          </div>
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">
+                        Full Throttle
+                    </h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center justify-content-lg-start mb-0">
+                            <li class="breadcrumb-item">
+                                <a class="text-white" href="#">Home</a>
+                            </li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">
+                                Full Throttle
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
     <!-- Hero End -->
 
     <!-- Goal Rush division start -->
     <div class="mainContent">
-      <div class="GoalRush">
-        <img
-          src="GoalRush.jpg"
-          alt="Goal Rush was here"
-          class="GoalRushImage"
-        />
-      </div>
-      <div
-        class="EventInfo our-schedule-area bg-img bg-gradient-overlay section-padding-100-60"
-      >
-        <div class="bg-white aboutEvent">
-          <h1 class="mb-4 animated slideInRight">About</h1>
-          <p class="animated slideInRight mb-4">
-            In this competition the contestant or team of contestants design a
-            robot wireless within the specified dimensions that can be operated
-            manually. The robot that will complete the specified task in least
-            time will be the winner.
-          </p>
-          <h1 class="mb-4 animated slideInRight">Game Rules</h1>
-          <ol class="animated slideInRight mb-4">
-            <li>
-              In this competition, participants are required to design a robot
-              within specified dimensions that can be manually operated.
-            </li>
-            <li>
-              Build two soccer-playing robots, one designed as a Striker and the
-              other as a Goalkeeper.
-            </li>
-            <li>
-              Teams are strictly prohibited from altering the components of
-              their robots in between the rounds.
-            </li>
-            <li>
-              Any alterations made to the robots after the invigilation process
-              will result in automatic disqualification.
-            </li>
-            <li>
-              Capturing the ball through any means and use of any structured
-              design to hold the ball is strictly prohibited and may result in
-              disqualification.
-            </li>
-            <li>
-              Participating teams are strictly forbidden from lending or
-              utilizing a robot under a different team's ownership for the same
-              event.
-            </li>
-            <li>
-              The ball must be kept in a continual state of motion and cannot be
-              locked by the robot.
-            </li>
-            <li>
-              We are not responsible for any kind of damage to the robots in the
-              game field.
-            </li>
-          </ol>
-          <h1 class="mb-4 animated slideInRight">Robot Specifications</h1>
-          <ul class="animated slideInRight mb-4">
-            <li>
-              <span style="font-weight: bolder; font-size: 1.1rem"
-                >Vehicle Requirements:
-              </span>
-              The robots may be either fully autonomous or remotely controlled.
-              If remotely controlled, the robots must be operated by a human
-              operator who is not physically on the course. The vehicles must be
-              electric and have a maximum 20 cm Height and 25 cm width size
-              limit.
-            </li>
-            <li>
-              <span style="font-weight: bolder; font-size: 1.1rem"
-                >Track:
-              </span>
-              The track surface and course line may have unevenness. There will
-              be certain obstacles in the race track which will try to slow down
-              the robot.
-            </li>
-            <li>
-              <span style="font-weight: bolder; font-size: 1.1rem"
-                >Race Format:
-              </span>
-              The race may have several rounds, each consisting of a certain
-              number of laps. The fastest vehicle to complete the set number of
-              laps in the shortest time is declared the winner
-            </li>
-            <li>
-              <span style="font-weight: bolder; font-size: 1.1rem"
-                >Safety:
-              </span>
-              Safety is a top priority during the race, and there are strict
-              safety rules in place to ensure that the vehicles do not cause any
-              harm to spectators or other competitors. The vehicles must pass
-              various safety tests and have safety features installed to
-              participate in the race.
-            </li>
-            <li>
-              <span style="font-weight: bolder; font-size: 1.1rem"
-                >Technical Inspection:
-              </span>
-              All participating vehicles must undergo technical inspection
-              before the race to ensure that they comply with the rules and
-              specifications. Any vehicle that fails the technical inspection
-              will not be allowed to participate in the race.
-            </li>
-          </ul>
-          <h1 class="mb-4 animated slideInRight">Judgement Criteria</h1>
-          <p class="animated slideInRight mb-4">
-            The judging criteria for progressing to the next round in the
-            soccer-playing robot competition vary for each round, considering
-            factors such as overall points, the number of goals scored, and the
-            time taken.
-          </p>
-          <h1 class="mb-4 animated slideInRight">Teams</h1>
-          <ol class="animated slideInRight mb-4">
-            <li>Team size can be 1-3 members.</li>
-            <li>
-              Members from different institutions are permitted to collaborate
-              and form a team.
-            </li>
-            <li>
-              Only two members from a team are allowed to remain in the
-              vicinity.
-            </li>
-          </ol>
+        <div class="GoalRush">
+            <img src="GoalRush.jpg" alt="Goal Rush was here" class="GoalRushImage" />
         </div>
-      </div>
+        <div class="EventInfo our-schedule-area bg-img bg-gradient-overlay section-padding-100-60">
+            <div class="bg-white aboutEvent">
+                <h1 class="mb-4 animated slideInRight">About</h1>
+                <p class="animated slideInRight mb-4">
+                    In this competition the contestant or team of contestants design a robot wireless within the specified dimensions that can be operated manually. The robot that will complete the specified task in least time will be the winner.
+                </p>
+                <h1 class="mb-4 animated slideInRight">Game Rules</h1>
+                <ol class="animated slideInRight mb-4">
+                    <li>
+                        In this competition, participants are required to design a robot within specified dimensions that can be manually operated.
+                    </li>
+                    <li>
+                        Build two soccer-playing robots, one designed as a Striker and the other as a Goalkeeper.
+                    </li>
+                    <li>
+                        Teams are strictly prohibited from altering the components of their robots in between the rounds.
+                    </li>
+                    <li>
+                        Any alterations made to the robots after the invigilation process will result in automatic disqualification.
+                    </li>
+                    <li>
+                        Capturing the ball through any means and use of any structured design to hold the ball is strictly prohibited and may result in disqualification.
+                    </li>
+                    <li>
+                        Participating teams are strictly forbidden from lending or utilizing a robot under a different team's ownership for the same event.
+                    </li>
+                    <li>
+                        The ball must be kept in a continual state of motion and cannot be locked by the robot.
+                    </li>
+                    <li>
+                        We are not responsible for any kind of damage to the robots in the game field.
+                    </li>
+                </ol>
+                <h1 class="mb-4 animated slideInRight">Robot Specifications</h1>
+                <ul class="animated slideInRight mb-4">
+                    <li>
+                        <span style="font-weight: bolder; font-size: 1.1rem">Vehicle Requirements:
+              </span> The robots may be either fully autonomous or remotely controlled. If remotely controlled, the robots must be operated by a human operator who is not physically on the course. The vehicles must be electric
+                        and have a maximum 20 cm Height and 25 cm width size limit.
+                    </li>
+                    <li>
+                        <span style="font-weight: bolder; font-size: 1.1rem">Track:
+              </span> The track surface and course line may have unevenness. There will be certain obstacles in the race track which will try to slow down the robot.
+                    </li>
+                    <li>
+                        <span style="font-weight: bolder; font-size: 1.1rem">Race Format:
+              </span> The race may have several rounds, each consisting of a certain number of laps. The fastest vehicle to complete the set number of laps in the shortest time is declared the winner
+                    </li>
+                    <li>
+                        <span style="font-weight: bolder; font-size: 1.1rem">Safety:
+              </span> Safety is a top priority during the race, and there are strict safety rules in place to ensure that the vehicles do not cause any harm to spectators or other competitors. The vehicles must pass various safety
+                        tests and have safety features installed to participate in the race.
+                    </li>
+                    <li>
+                        <span style="font-weight: bolder; font-size: 1.1rem">Technical Inspection:
+              </span> All participating vehicles must undergo technical inspection before the race to ensure that they comply with the rules and specifications. Any vehicle that fails the technical inspection will not be allowed
+                        to participate in the race.
+                    </li>
+                </ul>
+                <h1 class="mb-4 animated slideInRight">Judgement Criteria</h1>
+                <p class="animated slideInRight mb-4">
+                    The judging criteria for progressing to the next round in the soccer-playing robot competition vary for each round, considering factors such as overall points, the number of goals scored, and the time taken.
+                </p>
+                <h1 class="mb-4 animated slideInRight">Teams</h1>
+                <ol class="animated slideInRight mb-4">
+                    <li>Team size can be 1-3 members.</li>
+                    <li>
+                        Members from different institutions are permitted to collaborate and form a team.
+                    </li>
+                    <li>
+                        Only two members from a team are allowed to remain in the vicinity.
+                    </li>
+                </ol>
+            </div>
+        </div>
     </div>
     <!-- Goal Rush division end -->
 
     <!-- Footer Start -->
-    <div
-      class="container-fluid bg-dark text-white-50 footer pt-5"
-      id="ContactUs"
-    >
-      <div class="container py-5">
-        <div class="row g-5">
-          <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-            <a href="index.html" class="navbar-brand">
-              <div style="display: flex">
-                <img
-                  class="rounded-image-footer"
-                  src="img/RClogo1.jpg"
-                  alt=""
-                />
-                <h1
-                  class="text-white"
-                  style="margin-top: 12px; padding-left: 20px"
-                >
-                  ROBOTICA
-                </h1>
-              </div>
-            </a>
-            <p class="mb-0"></p>
-          </div>
-          <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
-            <h5 class="text-white mb-4">Get In Touch</h5>
-            <a
-              href="https://maps.app.goo.gl/wQ8KzX2JqdvXuFek8"
-              style="color: aliceblue"
-              target="_blank"
-            >
-              <p>
-                <i class="fa fa-map-marker-alt me-3"></i>Geethanjali College of
-                Engineering and Technology,Cheeryala(V) Keesara(M), Medchal(D),
-                Telangana, INDIA, PinCode-501301
-              </p>
-            </a>
-            <p>
-              <i class="fa fa-phone-alt me-3"></i
+    <div class="container-fluid bg-dark text-white-50 footer pt-5" id="ContactUs">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="navbar-brand">
+                        <div style="display: flex">
+                            <img class="rounded-image-footer" src="img/RClogo1.jpg" alt="" />
+                            <h1 class="text-white" style="margin-top: 12px; padding-left: 20px">
+                                ROBOTICA
+                            </h1>
+                        </div>
+                    </a>
+                    <p class="mb-0"></p>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="text-white mb-4">Get In Touch</h5>
+                    <a href="https://maps.app.goo.gl/wQ8KzX2JqdvXuFek8" style="color: aliceblue" target="_blank">
+                        <p>
+                            <i class="fa fa-map-marker-alt me-3"></i>Geethanjali College of Engineering and Technology,Cheeryala(V) Keesara(M), Medchal(D), Telangana, INDIA, PinCode-501301
+                        </p>
+                    </a>
+                    <p>
+                        <i class="fa fa-phone-alt me-3"></i
               ><a href="tel:8247350941" id="underline">8247350941</a>
             </p>
             <p>
@@ -338,10 +253,20 @@
     </div>
     <!-- Footer End -->
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"
-      ><i class="bi bi-arrow-up"></i
-    ></a>
-    <!-- Back to Top end -->
-  </body>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+                        <!-- JavaScript Libraries -->
+                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+                        <script src="lib/wow/wow.min.js"></script>
+                        <script src="lib/easing/easing.min.js"></script>
+                        <script src="lib/waypoints/waypoints.min.js"></script>
+                        <script src="lib/counterup/counterup.min.js"></script>
+                        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+                        <!-- Template Javascript -->
+                        <script src="js/main.js"></script>
+</body>
+
 </html>
