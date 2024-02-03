@@ -1178,15 +1178,19 @@ h6,
 }
 
 .download-button {
-    text-align: right;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .download-link {
+    text-align: right;
     text-decoration: none;
     background-color: #007BFF;
     color: #fff;
     padding: 10px 15px;
-    border-radius: 5px;
+    border-radius: 50%;
+    height: auto;
     font-weight: bold;
 }
