@@ -1176,3 +1176,17 @@ h6,
     border-color: #df42b1;
     color: #ffffff;
 }
+
+.download-button {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.download-link {
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
