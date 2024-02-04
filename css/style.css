@@ -1178,9 +1178,15 @@ h6,
 }
 
 .download-button {
+    font-size: 30px;
+    display: flex;
+    font-weight: 600;
+    justify-content: space-around;
+}
+
+.centerbtn {
     margin-bottom: 20px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
@@ -1192,5 +1198,15 @@ h6,
     padding: 10px 15px;
     border-radius: 50%;
     height: auto;
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 767px) {
+    .download-button {
+        font-size: 20px;
+    }
+    .download {
+        margin-top: 10px;
+        font-weight: 800;
+    }
 }
