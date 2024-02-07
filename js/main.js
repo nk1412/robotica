@@ -72,25 +72,25 @@ function scrollToEvents(cmd) {
     eventsSection.scrollIntoView({ behavior: 'smooth' });
 }
 
-function hideEvents() {
-    // Get the target element by its ID
-    var workshop = document.getElementById('Workshop');
-    var events = document.getElementById("Events")
+// function hideEvents() {
+//     // Get the target element by its ID
+//     var workshop = document.getElementById('Workshop');
+//     var events = document.getElementById("Events")
 
-    // Scroll to the target element
-    workshop.style.display = "block"
-    events.style.display = "none"
-    scrollToEvents('eventsx')
-}
+//     // Scroll to the target element
+//     workshop.style.display = "block"
+//     events.style.display = "none"
+//     scrollToEvents('eventsx')
+// }
 
 
-function hideWorkshop() {
-    // Get the target element by its ID
-    var workshop = document.getElementById('Workshop');
-    var events = document.getElementById("Events")
+// function hideWorkshop() {
+//     // Get the target element by its ID
+//     var workshop = document.getElementById('Workshop');
+//     var events = document.getElementById("Events")
 
-    // Scroll to the target element
-    workshop.style.display = "none"
-    events.style.display = "block"
-    scrollToEvents('events')
-}
+//     // Scroll to the target element
+//     workshop.style.display = "none"
+//     events.style.display = "block"
+//     scrollToEvents('events')
+// }
