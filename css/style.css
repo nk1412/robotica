@@ -1201,6 +1201,20 @@ h6,
     font-weight: bolder;
 }
 
+.regbtn {
+    height: 70px;
+    width: 200px;
+}
+
+.regbtn1 {
+    display: inline-flex;
+    justify-self: center;
+    font-size: 20px;
+    align-items: center;
+    padding: 10px 20px;
+    text-align: center;
+}
+
 @media only screen and (max-width: 767px) {
     .download-button {
         font-size: 20px;
@@ -1208,5 +1222,13 @@ h6,
     .download {
         margin-top: 10px;
         font-weight: 800;
+    }
+    .regbtn {
+        width: 120px;
+        height: 50px;
+    }
+    .regbtn1 {
+        font-size: 16px;
+        padding: 5px 10px;
     }
 }
