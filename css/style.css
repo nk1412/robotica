@@ -1223,6 +1223,9 @@ h6,
         margin-top: 10px;
         font-weight: 800;
     }
+}
+
+@media only screen and (max-width: 767px) {
     .regbtn {
         width: 120px;
         height: 50px;
