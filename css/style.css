@@ -1204,6 +1204,18 @@ h6,
 .regbtn {
     height: 70px;
     width: 200px;
+    border-radius: 50rem !important;
+    color: #fff;
+    background-color: #1363c6;
+    border-color: #1363c6;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.regbtn:hover {
+    color: #fff;
+    background-color: #1054a8;
+    border-color: #0f4f9e
 }
 
 .regbtn1 {
