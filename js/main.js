@@ -94,3 +94,17 @@ function scrollToEvents(cmd) {
 //     events.style.display = "block"
 //     scrollToEvents('events')
 // }
+
+function submitForm() {
+    // Get form data
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var subject = document.getElementById("subject").value;
+    var message = document.getElementById("message").value;
+
+    // Construct URL for Google Form with pre-filled values
+    var googleFormURL = "https://docs.google.com/forms/d/e/1FAIpQLSc01RXzOcpjNM880Jd3Li7tsEkwE-RN6rZGjPkCSquRo3Fk0w/formResponse?name=${encodeURIComponent(name)}&email=${encodeURIComponent(email)}&rollno=${encodeURIComponent(subject)}&message=${encodeURIComponent(message)}";
+
+    // Open the Google Form in a new tab
+    window.open(googleFormURL);
+}
